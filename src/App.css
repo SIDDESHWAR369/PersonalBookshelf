@@ -74,15 +74,17 @@ input {
 }
 
 .title {
+  position: relative;
   display: flex;
-  justify-content: space-between;
-  
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
-.title h1{
+.title h1 {
+  margin-left: 0%;
+  /* Remove default margin */
   text-align: center;
-  margin-left: 40%;
 }
 
 .icon {
@@ -98,4 +100,3 @@ input {
   border: 5px solid #fff;
   border-radius: 50%;
 }
-
