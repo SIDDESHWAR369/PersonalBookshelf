@@ -40,7 +40,7 @@ const Search = ({ onAdd }) => {
     <div>
       <nav style={{border:'1px solid black', backgroundColor:'RGB(31, 41, 55)'}}>
         <div className='title'>
-          <h1>BOOKS LIBRARY</h1>
+          <h1>PERSONAL BOOKSHELF</h1>
           <a href="/bookshelf" className='icon' title='Bookshelf'>
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-library-big">
               <rect width="8" height="18" x="3" y="3" rx="1"/>
