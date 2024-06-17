@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: RGB(36,36,36);
+
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+input {
+  
+  font-size: 20px;
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  padding-left: 70px;
+  width: 100%;
+  max-width: 80%;
+  height:40px;
+  border: 1px solid #000000;
+  border-radius: 40px;
+  background-color:#DFE0DC;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 3.5%;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.book-card:hover {
+  transform: scale(1.04);
+}
+
+.cover{
+  width: 200px;
+  height:300px;
+}
+
+.book-card h3 {
+  margin-top: 0;
+}
+
+.book-card button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.book-card button:hover {
+  background-color: #0056b3;
+}
+
+.svg{
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  
+  width: 100%;
+}
+
+.title h1{
+  text-align: center;
+  margin-left: 40%;
+}
+
+.icon {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
